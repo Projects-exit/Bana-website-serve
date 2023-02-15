@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd97a8c4.css",
-    "main.js": "/static/js/main.fa843a03.js",
+    "main.css": "/static/css/main.619863dc.css",
+    "main.js": "/static/js/main.cb4abf04.js",
     "static/js/787.916699a7.chunk.js": "/static/js/787.916699a7.chunk.js",
     "static/media/ZonaPro-SemiBold.ttf": "/static/media/ZonaPro-SemiBold.864ab088d0d131c61aa6.ttf",
     "static/media/ZonaPro-Regular.ttf": "/static/media/ZonaPro-Regular.a413d6622cb1531f4292.ttf",
@@ -45,12 +45,12 @@
     "static/media/fbBlue.svg": "/static/media/fbBlue.940f4d8037a302ef1d1b0781d0cb1e7a.svg",
     "static/media/next.svg": "/static/media/next.f56b9cf4ef21f082b5e12e34f557fe7e.svg",
     "static/media/checkBox.svg": "/static/media/checkBox.e04ecfe2f3d33f4a8f14bbddf8ab2c39.svg",
-    "main.dd97a8c4.css.map": "/static/css/main.dd97a8c4.css.map",
-    "main.fa843a03.js.map": "/static/js/main.fa843a03.js.map",
+    "main.619863dc.css.map": "/static/css/main.619863dc.css.map",
+    "main.cb4abf04.js.map": "/static/js/main.cb4abf04.js.map",
     "787.916699a7.chunk.js.map": "/static/js/787.916699a7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd97a8c4.css",
-    "static/js/main.fa843a03.js"
+    "static/css/main.619863dc.css",
+    "static/js/main.cb4abf04.js"
   ]
 }
