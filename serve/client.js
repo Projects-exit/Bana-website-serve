@@ -18,6 +18,8 @@ const _meta_title = `<title> BANA – Business Angel Network of Armenia </title>
 const _og_description = `<meta name="og:description" content="We provide a platform for investors to meet and cooperate with their peers, and connect them with promising startups and entrepreneurs."/>`
 const _og_title = `<meta property="og:title" content="BANA – Business Angel Network of Armenia"/>`
 
+const _default_description = "We provide a platform for investors to meet and cooperate with their peers, and connect them with promising startups and entrepreneurs."
+
 app.get("/:type/viewer/:id",(req, res, next) => {
 
   // console.log("Yeah")
@@ -36,8 +38,8 @@ app.get("/:type/viewer/:id",(req, res, next) => {
       const _attributes = data?.data?.attributes || {}
       htmlData = htmlData
       .replace(_meta_title, `<title> BANA – ${_type} - ${_attributes?.heading} </title>`)
-      .replace(_meta_description, `<meta name="description" content="${_attributes?.description}" data-react-helmet="true" />`)
-      .replace(_og_description, `<meta name="og:description" content="${_attributes.description}" />` )
+      .replace(_meta_description, `<meta name="description" content="${_attributes?.description || _default_description}" data-react-helmet="true" />`)
+      .replace(_og_description, `<meta name="og:description" content="${_attributes.description || _default_description}" />` )
       .replace(_og_title , `<meta property="og:title" content="${_attributes.heading}" />`)
       
       // console.log(htmlData)
