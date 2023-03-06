@@ -20,7 +20,7 @@ const _og_title = `<meta property="og:title" content="BANA – Business Angel Ne
 
 app.get("/:type/viewer/:id",(req, res, next) => {
 
-  console.log("Yeah")
+  // console.log("Yeah")
   // res.sendFile(indexPath);
   fs.readFile(indexPath, 'utf8', async (err, htmlData) =>{
 
